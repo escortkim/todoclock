@@ -1,0 +1,121 @@
+body{
+    background-color: #ffffff;
+}
+body {
+    color :#2ecc71; 
+}
+.button{
+    cursor : pointer;
+}
+
+.clicked{
+    color : #95a5a6;
+}
+.form,.greeting {
+    display: none;
+}
+.showing {
+    display: block;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.bgImg{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    animation: fadeIn .5s linear;
+}
+.js-clock{
+    position: absolute;
+    top: 220px;
+    left: 700px;
+    font-size: 50pt;
+    font-family: NanumGothic;
+    color: whitesmoke;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+
+
+}
+.greeting{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    font-size: 30pt;
+    font-family:  NanumGothic;
+    color: whitesmoke;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+.js-weather{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15pt;
+    color: whitesmoke;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+    text-align: right;
+    font-family: NanumGothic;
+}
+.js-toDoForm{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    border: none;
+    background-color: transparent;
+    color: tomato;
+
+}
+.js-toDoList{
+    position: absolute;
+    top: 550px;
+    left: 700px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20pt;
+    color: white;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+    font-family: NanumGothic;
+}
+.li {
+    list-style: none;
+    size: 120%;
+}
+button {
+    background-color: transparent;
+    border: none;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+    color: red; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+.js-toDoForm input {
+    border:none;
+    background: transparent;
+    color: whitesmoke;
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+    font-size: 30px;
+    height: 30px;
+    font-family: NanumGothic;
+}
+ul.js-toDoList {
+    width: 25%;
+}
+.js-toDoList::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+

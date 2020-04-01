@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>To Do Clock</title>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body style="overflow:hidden">
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        <h4 class="js-greeting greeting"></h4>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write a to do!" />
+        </form>
+        <ul class="js-toDoList" style="overflow-y:auto; height: 30%;" style="overflow-x: hidden;">
+        </ul>
+        <span class="js-weather"></span>
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <script src="background.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>
